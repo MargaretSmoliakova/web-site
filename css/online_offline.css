@@ -1,0 +1,19 @@
+#online_offline_general {
+    position: absolute;
+    display: inline-block;
+    top: 15vh;
+    right: 4vmin;}
+
+img#online_offline {
+    position: relative;   
+    width: 2vmin;
+    height: 2vmin;
+    margin-right: 1vw;}
+   
+#text_online_offline {
+    position: relative;
+    float: right;    
+    color: #FFFFFF;
+    font-style: italic;
+    font-size: 1.8vh;}
+	

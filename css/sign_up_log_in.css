@@ -1,0 +1,123 @@
+body {
+    background-color: black;
+    padding: auto;
+    padding-top: 7vmin;
+    padding-bottom: 7vmin;}
+    
+#page {
+    color: #FFFFFF;
+    border: 0.4vw dashed #FFFFFF;
+    width: 45vmax;
+    min-width: 8cm;
+    margin-left: auto;
+    margin-right: auto;}
+ 
+#logo {
+    background-image: url(../images/background/top_top.jpg);
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: repeat-x;
+    min-height: 100px;
+    opacity: 0.7;}
+    
+#img_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100px;
+    min-width: 100px;
+    width: 15vmin;
+    height: 15vmin;}
+
+#registration {
+    background-color: #331700;
+    opacity: 0.8;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-repeat: repeat-x;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    font-size: 1.5vmax;
+    border-bottom: 0.4vw dashed #FFFFFF;}
+    
+#page_bottom {
+    background-image: url(../images/background/middle.jpg);
+    background-size: 100%;
+    background-position: bottom;
+    padding: 1vmin;
+    margin-bottom: 0vmin;
+    background-repeat: repeat-y;}
+    
+label {
+    display: block;
+    text-align: center;
+    margin-top: 2vmin;
+    margin-bottom: 0.7vmin;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 2.5vmax;}
+
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4vh;
+    min-height: 30px;
+    border-radius: 10px;
+    width: 28vw;
+    border-style: dotted;
+    border-width: 2.5px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 1.5vmax;
+    font-weight: bold;
+    padding-left: 10px;}
+    
+input:focus {
+    outline: none;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFFFFF;
+    font-size: 1.5vmax;
+    font-weight: bold;
+    padding-left: 10px;}
+    
+p.sign_up_feedback {
+    position: relative;
+    text-align: center;
+    color: #A73232;}
+    
+#show_password {
+    display: block;
+    float: right;
+    position: relative;
+    top: -4vh;
+    margin-right: 2vw;
+    height: 25px;
+    width: 25px;}
+
+/*input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid green;
+  color: black;
+  background-color: #FFFFFF;}*/
+    
+#sign_up_button {
+    margin-top: 4vh;
+    width: 18vmax;
+    height: 4.1vmax;
+    opacity: 0.6;
+    margin-bottom: 2vh;
+    border: none;}
+    
+#sign_up_button:hover, #sign_up_button:focus {
+    opacity: 1;
+    border: none;}
+    
+    

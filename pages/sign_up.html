@@ -1,0 +1,42 @@
+﻿<html>
+    <head>
+        <title>DS (регистрация)</title>
+	    <link href="../css/sign_up_log_in.css" type="text/css" rel="stylesheet"/>   
+		<meta name="author" content="Margaret Smoliakova">
+    </head>
+	<body>
+        <div id="page">
+          <div id="logo"><a href="../DS (home page).html"><img src="../images/logo/logo.png" id="img_logo" alt="logo" title='DS (домашняя страница)'/></a></div>
+            <div id="registration"><h2>РЕГИСТРАЦИЯ</h2></div>
+            
+            <form id="page_bottom" autocomplete="off" method="" action="">
+
+                <label for="username">Имя:</label>
+                <input id="sign_up_first_name" type="text" name="first_name" required/>
+                
+                <label for="usersername">Фамилия:</label>
+                <input type="text" name="last_name" id="sign_up_sername" required/>
+                
+                <label for="useremail">Электронный адрес:</label>
+                <input type="email" name="email" id="sign_up_email" required/>
+                <p class="sign_up_feedback" id="sign_up_email_feedback"></p>
+                
+                <label for="userphonenumber">Мобильный телефон:</label>
+                <input type="number" name="email" id="sign_up_phone_number"/>
+                <p class="sign_up_feedback" id="sign_up_phone_number_feedback"></p>
+            
+                <label for="userpassword">Создайте пароль:</label>
+                <input type="password" name="password" id="sign_up_password" required/>
+                <a href=""><img src="../images/icons/show_password.png" id="show_password" title="Показать пароль"/></a>
+            
+                <label for="usercontrolpassword">Повторно введите созданный пароль:</label>
+                <input type="password" name="control _password" id="sign_up_control_password" required/>
+                <p class="sign_up_feedback" id="sign_up_control_password_feedback"></p>
+            
+                <input type="image" src="../images/icons/sign_up_button.png" title="Зарегистрироваться" value="зарегистрироваться" id="sign_up_button"/>
+        
+            </form>
+        </div>
+        <script src="../js/sign_up_log_in.js"></script>
+    </body>
+</html>
